@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --ui-scale: 1;
+}
+
+/* Theme Styles */
+.theme-dark {
+  --bg-primary: theme('colors.gray.900');
+  --bg-secondary: theme('colors.gray.800');
+  --text-primary: theme('colors.gray.100');
+  --text-secondary: theme('colors.gray.300');
+}
+
+.theme-light {
+  --bg-primary: theme('colors.gray.100');
+  --bg-secondary: theme('colors.white');
+  --text-primary: theme('colors.gray.900');
+  --text-secondary: theme('colors.gray.700');
+}
+
+.theme-custom {
+  --bg-primary: theme('colors.blue.900');
+  --bg-secondary: theme('colors.blue.800');
+  --text-primary: theme('colors.blue.100');
+  --text-secondary: theme('colors.blue.300');
+}
+
+/* Scale Transform */
+.scale-ui {
+  transform: scale(var(--ui-scale));
+  transform-origin: top left;
+}
