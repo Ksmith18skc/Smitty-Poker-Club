@@ -1,5 +1,5 @@
 # 🃏 Smitty-Poker-Club
-https://poker.korymsmith.dev/lobby
+https://poker.korymsmith.dev/
 
 Smitty Poker Club is a modern, web-based multiplayer poker club I built as a personal project so my friends and I could play poker together from anywhere. It offers real-time gameplay, custom game logic, and a clean UI.
 
